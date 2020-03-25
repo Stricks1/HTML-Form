@@ -1,10 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emilio & Gabriel HTML Form Project</title>
+    <link rel='stylesheet' href='styles.css'>
 </head>
+
 <body>
-    
+    <nav>
+        <div class='navSignin'>
+            <div class='navForgotPass'>
+                <span class='forgotPass'>Already have an Intuit account?</span>
+                <span><a href="#">I forgot my User ID or Password </a> </span>
+            </div>
+            <button>
+                <img src="https://img.icons8.com/cotton/64/000000/lock--v3.png" />
+                <span>Sign In</span>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <div class='mainDiv'>
+            <section class='logoImages'>
+                <div>
+                    <img src="Images/logos.png" alt="Logo">
+                </div>
+            </section>
+            <form>
+                <fieldset>
+                    <header>
+                        <h2>Create an Intuit account</h2>
+                        <div class='learnMore'>
+                            <span>One account for everything Intuit, including Mint. </span>
+                            <span>
+                                <a href="#">Learn more</a>
+                            </span>
+                        </div>
+                    </header>
+                    <div class='inputFormat'>
+                        <label for='email'>
+                            Email address
+                        </label>
+                        <input type="email" name='email' />
+                    </div>
+                    <div class='inputFormat'>
+                        <label for='tel'>
+                            Phone (recommended)</label>
+                        <input type="tel" name='tel' />
+                        <span>Standard call, messaging or data rates may apply.</span>
+
+                    </div>
+                    <div class='inputFormat'>
+                        <label for='password'>
+                            Password</label>
+                        <input class='password' type="password" name='password' />
+                    </div>
+                    <div class='inputFormat'>
+                        <label for='confirmPass'>
+                            Confirm password
+                        </label>
+                        <input type="password" name='confirmPass' />
+
+                    </div>
+                    <button type="submit">
+                        <img src="https://img.icons8.com/cotton/64/000000/lock--v3.png" />
+                        <span>Create Account</span>
+                    </button>
+
+                    <div>
+                        <p>By clicking Create account, you agree to our
+                            <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="#">Terms of Use.</a>
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+        </div>
+        <div>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </div>
+    </footer>
 </body>

@@ -74,12 +74,10 @@ main {
 
 .mainDiv {
   width:380px;
-  
 }
 
 form {
   border: none;
-  
 }
 
 fieldset{
@@ -160,42 +158,39 @@ header a {
   width: 278px;
   font-size: 18px;
   padding-left: 5px;
-  }
+}
 
-  .inputFormatPass input:focus {
+.inputFormatPass input:focus {
   -webkit-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
   -moz-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
   box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
 }
 
-  .inputFormatPass {
+.inputFormatPass {
   margin: 17px;
   font-size: 14px;
 }
 
 
-  fieldset button {
-    width: 312px;
-    
-    background-color: #0077C5;
-    margin: 30px 17px;
-    border-radius: 5px;
-    height: 45px;
-    
-    justify-content: center;
-    border: none;
-  }
+fieldset button {
+  width: 312px;
+  background-color: #0077C5;
+  margin: 30px 17px;
+  border-radius: 5px;
+  height: 45px;
+  justify-content: center;
+  border: none;
+}
 
-  fieldset button span {
-    color: white;
-    
-    margin-left: 5px;
-    font-size: 16.5px;
-  }
-  fieldset button img {
+fieldset button span {
+  color: white;
+  margin-left: 5px;
+  font-size: 16.5px;
+}
+
+fieldset button img {
   width: 22px;
   height: 22px;
-  
 }
 
 .termsandcon {
@@ -215,20 +210,19 @@ header a {
   color: #8D9096;
   background-color: #ECEEF1;
   height: 46px;
-  width: 373px;
+  width: 372px;
   text-align: center;
   border: solid;
   border-color: #C7C7C7;
-  border-width: 0 1px 1px 1px;  
+  border-width: 0 1px 1px 1px;
 }
 
 .captcha a {
   text-decoration: none;
-  
 }
 
 .captcha p {
-  margin-top: 16.5px; 
+  margin-top: 16.5px;
 }
 
 footer {
@@ -238,18 +232,17 @@ footer {
   height: 90px;
   font-size: 12px;
   line-height: 1.25rem;
-  
   justify-content: center;
 }
 
 footer a {
   text-decoration: none;
-  color: #505050;  
+  color: #505050;
   margin: 0 5px;
 }
 
 footer p {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .anchor {

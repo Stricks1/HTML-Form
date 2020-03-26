@@ -6,21 +6,35 @@ body {
 }
 
 a {
-    color: #0077C5;
+  color: #0077C5;
 }
 
 nav {
   display: flex;
   flex-direction: row-reverse;
   height: 54px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.align-center{
   align-items: center;
 }
 
+.align-self-center{
+  align-self: center;
+}
+
 .navSignin {
-  display: flex;
-  flex-direction: row;
   height: 54px;
-  align-items: center;
   font-size: 12px;
   margin-right: 23px;
 }
@@ -30,8 +44,6 @@ nav {
 }
 
 .navForgotPass {
-  display: flex;
-  flex-direction: column;
   margin-right: 10px;
   align-items: flex-end;
 }
@@ -41,88 +53,72 @@ nav {
 }
 
 .forgotPass {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .navSignin button {
-    height: 35px;
-    width: 100px;
-    background-color: #0077C5;
-    color: white;
-    border-radius: 5px;
-    border: solid;
-    border-color: black;
-    border-width: 0.2px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  height: 35px;
+  width: 100px;
+  background-color: #0077C5;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
+  border-width: 0.2px;
+  justify-content: space-around;
 }
 
 main {
-    align-content: center;
-    display: flex;
-    flex-direction: column;
+  align-content: center;
 }
 
 .mainDiv {
-    width:380px;
-    align-self: center;
+  width:380px;
+  
 }
 
 form {
   border: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
 }
 
 fieldset{
-    border: solid;
-    border-width: 1px 1px 0 1px;
-    border-color: #C7C7C7;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+  border: solid;
+  border-width: 1px 1px 0 1px;
+  border-color: #C7C7C7;
+  background-color: white;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 header h2 {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 header span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 header a {
-    text-decoration: none;
-    font-size: 12px;
-    padding-top: 0;
-}
-
-.learnMore {
-    display: flex;
-    flex-direction: column;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 0;
 }
 
 .inputFormat {
-    display: flex;
-    flex-direction: column;
-    margin: 17px;
-    font-size: 14px;
+  margin: 17px;
+  font-size: 14px;
 }
 
 .inputFormat span {
-    font-size: 9.5px;
-    margin-top: 6px;
+  font-size: 9.5px;
+  margin-top: 6px;
 }
 
 .inputFormat label {
-    margin: 14px 0;
+  margin: 14px 0;
 }
 
 .inputFormat input {
@@ -137,34 +133,33 @@ header a {
 }
 
 .inputFormat input:focus {
-    -webkit-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
-    -moz-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
-    box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);    
-  }
+  -webkit-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  -moz-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+}
 
 .password {
-    background: url(https://img.icons8.com/cotton/64/000000/unlock-2--v3.png) no-repeat;
-    background-size: 21px;
-    background-position: 288px;
-    padding-right:30px;
-    height: 25px;
-
+  background: url(https://img.icons8.com/cotton/64/000000/unlock-2--v3.png) no-repeat;
+  background-size: 21px;
+  background-position: 288px;
+  padding-right:30px;
+  height: 25px;
 }
 
 .inputFormatPass label {
-    margin: 14px 0;
+  margin: 14px 0;
 }
 
 .inputFormatPass input {
-    height: 31px;
-    font-size: 17px;
-    border-radius: 3px;
-    border-color: #C1C5C8;
-    border-style: solid;
-    border-width: 0.5px;
-    width: 278px;
-    font-size: 18px;
-    padding-left: 5px;
+  height: 31px;
+  font-size: 17px;
+  border-radius: 3px;
+  border-color: #C1C5C8;
+  border-style: solid;
+  border-width: 0.5px;
+  width: 278px;
+  font-size: 18px;
+  padding-left: 5px;
   }
 
   .inputFormatPass input:focus {
@@ -174,102 +169,89 @@ header a {
 }
 
   .inputFormatPass {
-    display: flex;
-    flex-direction: column;
-    margin: 17px;
-    font-size: 14px;
+  margin: 17px;
+  font-size: 14px;
 }
 
-.confirmPass {
-    display: none;
-}
-
-.inputFormatPass input:required ~ .confirmPass {
-    display: flex;
-    flex-direction: column;   
-  }
 
   fieldset button {
-      width: 312px;
-      align-self: center;
-      background-color: #0077C5;
-      margin: 30px 17px;
-      border-radius: 5px;
-      height: 45px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      border: none;
+    width: 312px;
+    
+    background-color: #0077C5;
+    margin: 30px 17px;
+    border-radius: 5px;
+    height: 45px;
+    
+    justify-content: center;
+    border: none;
   }
 
   fieldset button span {
-      color: white;
-      align-self: center;
-      margin-left: 5px;
-      font-size: 16.5px;
+    color: white;
+    
+    margin-left: 5px;
+    font-size: 16.5px;
   }
   fieldset button img {
-    width: 22px;
-    height: 22px;
-    align-self: center;
+  width: 22px;
+  height: 22px;
+  
 }
 
 .termsandcon {
-    text-align: center;
-    font-style: italic;
-    font-size: 11.5px;
-    color: #757575;
-    line-height: 1.25rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 11.5px;
+  color: #757575;
+  line-height: 1.25rem;
 }
 
 .termsandcon a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .captcha {
-    font-size: 9.5px;
-    color: #8D9096;
-    background-color: #ECEEF1;
-    height: 46px;
-    width: 372px;
-    text-align: center;
-    border: solid;
-    border-color: #C7C7C7;
-    border-width: 0 1px 1px 1px;  
+  font-size: 9.5px;
+  color: #8D9096;
+  background-color: #ECEEF1;
+  height: 46px;
+  width: 373px;
+  text-align: center;
+  border: solid;
+  border-color: #C7C7C7;
+  border-width: 0 1px 1px 1px;  
 }
 
 .captcha a {
-    text-decoration: none;
-    align-self: center;
+  text-decoration: none;
+  
 }
 
 .captcha p {
-    margin-top: 16.5px; 
+  margin-top: 16.5px; 
 }
 
 footer {
-    padding-top: 20px;
-    width: 100%;
-    text-align: center;
-    height: 90px;
-    font-size: 12px;
-    line-height: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: 90px;
+  font-size: 12px;
+  line-height: 1.25rem;
+  
+  justify-content: center;
 }
 
 footer a {
-    text-decoration: none;
-    color: #505050;  
-    margin: 0 5px;
+  text-decoration: none;
+  color: #505050;  
+  margin: 0 5px;
 }
 
 footer p {
-    margin-top: 0; 
+  margin-top: 0; 
 }
 
 .anchor {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

@@ -9,57 +9,57 @@
 </head>
 
 <body>
-    <nav>
-        <div class='navSignin'>
-            <div class='navForgotPass'>
+    <nav class='align-center'>
+        <div class='navSignin flex-row align-center'>
+            <div class='navForgotPass flex-column'>
                 <span class='forgotPass'>Already have an Intuit account?</span>
                 <span><a href="#">I forgot my User ID or Password </a> </span>
             </div>
-            <button>
-                <img src="https://img.icons8.com/cotton/64/000000/lock--v3.png" />
+            <button class='flex-row align-center'>
+                <img src="https://img.icons8.com/cotton/64/000000/lock--v3.png" alt="Sign Up Image" />
                 <span>Sign In</span>
             </button>
         </div>
     </nav>
-    <main>
-        <div class='mainDiv'>
-            <section class='logoImages'>
+    <main class='flex-column'>
+        <div class='mainDiv align-self-center'>
+            <div class='logoImages'>
                 <div>
                     <img src="Images/logos.png" alt="Logo">
                 </div>
-            </section>
-            <form>
-                <fieldset>
+            </div>
+            <form class='flex-column align-center'>
+                <fieldset closs='flex-column'>
                     <header>
                         <h2>Create an Intuit account</h2>
-                        <div class='learnMore'>
+                        <div class='flex-column'>
                             <span>One account for everything Intuit, including Mint. </span>
                             <span>
                                 <a href="#">Learn more</a>
                             </span>
                         </div>
                     </header>
-                    <div class='inputFormat'>
+                    <div class='inputFormat flex-column'>
                         <label for='email'>
                             Email address
                         </label>
-                        <input type="email" name='email' />
+                        <input type="email" name='email' id='email' />
                     </div>
-                    <div class='inputFormat'>
+                    <div class='inputFormat flex-column'>
                         <label for='tel'>
                             Phone (recommended)</label>
-                        <input type="tel" name='tel' />
+                        <input type="tel" name='tel' id='tel' />
                         <span>Standard call, messaging or data rates may apply.</span>
 
                     </div>
-                    <div class='inputFormatPass'>
+                    <div class='inputFormatPass flex-column'>
                         <label for='password'>
                             Password</label>
-                        <input class='password' type="password" name='password' />
+                        <input class='password' type="password" name='password' id='password' />
                         </div>
-                    <button type="submit">
-                        <img src="https://img.icons8.com/cotton/64/000000/lock--v3.png" />
-                        <span>Create Account</span>
+                    <button type="submit" class='flex-row align-center align-self-center'>
+                        <img class='align-self-center' src="https://img.icons8.com/cotton/64/000000/lock--v3.png" alt="Create account image" />
+                        <span class='align-self-center'>Create Account</span>
                     </button>
 
                     <div class="termsandcon">
@@ -71,13 +71,13 @@
                     
                 </fieldset>
                 <div class="captcha">
-                    <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="#">Terms of Use.</a>
+                    <p>Invisible reCAPTCHA by Google <a class='align-self-center' href="">Privacy Policy</a> and <a class='align-self-center' href="#">Terms of Use.</a>
                     </p>
                 </div>
             </form>
         </div>
     </main>
-    <footer>
+    <footer class='flex-column'>
         <div class="anchor">
             <a href="#">Legal</a>
             <a href="#">Privacy</a>

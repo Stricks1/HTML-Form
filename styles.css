@@ -35,14 +35,6 @@ nav {
   flex-direction: column;
 }
 
-.justify-content {
-  justify-content: space-around;
-}
-
-.logoImages img {
-    animation: 733ms fade-in ease-in forwards;
-}
-
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -60,7 +52,7 @@ nav {
   text-align: center;
 }
 
-.images-class{
+.images-class {
   width: 22px;
 }
 
@@ -75,7 +67,7 @@ nav {
 .logos-text {
   margin-left: 4px;
   font-size: 18px;
-  color: #8C8C92;
+  color: #8c8c92;
   font-weight: lighter;
   letter-spacing: 0.5px;
   margin-right: 6px;
@@ -265,7 +257,7 @@ fieldset button span {
   height: 46px;
   width: 372px;
   text-align: center;
-  border: solid;
+  border-style: solid;
   border-width: 0 1px 1px 1px;
 }
 
@@ -288,7 +280,6 @@ footer {
   height: 90px;
   font-size: 12px;
   line-height: 1.25rem;
-  justify-content: center;
 }
 
 .anchor {

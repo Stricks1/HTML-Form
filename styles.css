@@ -25,18 +25,19 @@ a {
 }
 
 nav {
-  display: flex;
   flex-direction: row-reverse;
   height: 54px;
 }
 
-.flex-column {
+nav, .flex-column, .flex-row {
   display: flex;
+}
+
+.flex-column {
   flex-direction: column;
 }
 
 .flex-row {
-  display: flex;
   flex-direction: row;
 }
 

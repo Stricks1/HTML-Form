@@ -20,6 +20,10 @@ nav {
   flex-direction: column;
 }
 
+.logoImages img {
+    animation: 733ms fade-in ease-in forwards;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;

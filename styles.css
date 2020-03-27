@@ -29,7 +29,9 @@ nav {
   height: 54px;
 }
 
-nav, .flex-column, .flex-row {
+nav,
+.flex-column,
+.flex-row {
   display: flex;
 }
 

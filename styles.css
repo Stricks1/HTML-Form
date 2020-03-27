@@ -1,8 +1,23 @@
 body {
   background-color: rgb(236, 238, 241);
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #505050;
   margin-top: 0;
+}
+
+.color-white {
+  color: white;
+}
+
+.bordercolor {
+  border-color: #c1c5c8;
+}
+
+.bordercolor2 {
+  border-color: #c7c7c7;
+}
+
+.color-grey {
+  color: #505050;
 }
 
 a {
@@ -54,7 +69,6 @@ nav {
 }
 
 .intuit {
-  width: ;
   height: 35px;
 }
 
@@ -99,7 +113,6 @@ header a {
 
 footer a {
   text-decoration: none;
-  color: #505050;
   margin: 0 5px;
 }
 
@@ -111,9 +124,12 @@ footer a {
   margin-bottom: 5px;
 }
 
+.background-color-blue {
+  background-color: #0077c5;
+}
+
 fieldset button {
   width: 312px;
-  background-color: #0077c5;
   margin: 30px 17px;
   border-radius: 5px;
   height: 45px;
@@ -124,8 +140,6 @@ fieldset button {
 .navSignin button {
   height: 35px;
   width: 100px;
-  background-color: #0077c5;
-  color: white;
   border-radius: 5px;
   border: solid;
   border-color: black;
@@ -149,7 +163,6 @@ form {
 fieldset {
   border: solid;
   border-width: 1px 1px 0 1px;
-  border-color: #c7c7c7;
   background-color: white;
 }
 
@@ -171,7 +184,6 @@ header span {
 }
 
 fieldset button span {
-  color: white;
   margin-left: 5px;
   font-size: 16.5px;
 }
@@ -190,7 +202,6 @@ fieldset button span {
   font-size: 17px;
   width: 308px;
   border-style: solid;
-  border-color: #c1c5c8;
   border-radius: 3px;
   border-width: 0.5px;
   padding-left: 5px;
@@ -199,7 +210,6 @@ fieldset button span {
 .inputFormatPass input {
   height: 31px;
   border-radius: 3px;
-  border-color: #c1c5c8;
   border-style: solid;
   border-width: 0.5px;
   width: 278px;
@@ -256,7 +266,6 @@ fieldset button span {
   width: 372px;
   text-align: center;
   border: solid;
-  border-color: #c7c7c7;
   border-width: 0 1px 1px 1px;
 }
 
